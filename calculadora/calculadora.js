@@ -48,7 +48,7 @@ function operador(num){
 }
 
 
-function limpiar(){
+limpiar=(e)=>{
     operadorSeleccionado="";
     parcial="";
     txtResul.innerHTML = "";
